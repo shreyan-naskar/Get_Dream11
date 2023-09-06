@@ -83,7 +83,7 @@ def fetch_bowl(bowl,name):
 
 # make seperate directory for batter match data
 def bat_mkdir():
-   directory = "Batter Match Data"
+   directory = "Batter_Match_Data"
    parent_dir = "C:/Users/SHREYAN/Desktop/Programs/Python/Proj/"
    
    path = os.path.join(parent_dir, directory)
@@ -93,7 +93,7 @@ def bat_mkdir():
 
 # make seperate directory for bowler match data
 def bowl_mkdir():
-   directory = "Bowler Match Data"
+   directory = "Bowler_Match_Data"
    parent_dir = "C:/Users/SHREYAN/Desktop/Programs/Python/Proj/"
    
    path = os.path.join(parent_dir, directory)
