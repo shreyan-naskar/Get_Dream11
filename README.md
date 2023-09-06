@@ -1,17 +1,11 @@
-# Sentiment Analysis
+# D11 Prediction Model
 
 - Exploratory Data Analysis
 - Data Preprocessing
-    - Imputation
-    - Vectorization
+    - Label Encoding
     - Key Visualisations
-    - Feauture Selection and Normalization Pipeline
-- Base Model Training and Testing [ Base Models used and compared ]
-    - LinearSVC
-    - Logistic Regression
+    - Feauture Engineering and Scaling Pipeline
 - Hyperparameter Tuning
-    - SVC in GridSearchCV
-    - LogisticRegression in GridSearchCV
-    - RandomForestClassifier in GridSearchCV
-    - MultinomialNB in GridSearchCV
-- Model Prediction
+    - GradientBoostingClassifier in GridSearchCV for Bowler Data
+    - RandomForestClassifier in GridSearchCV for Bowler Data
+- Model Saving
